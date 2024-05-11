@@ -9,6 +9,8 @@ not much, but this repository covers, something like, beginner-full-project-stru
 - main will just serve as a shortcut to run the server
 
 speaking of running the server, here is how
-```git clone https://github.com/Lyznfin/fastapi_crud```
-```cd fastapi_crud```
-```fastapi dev main.py```
+```
+git clone https://github.com/Lyznfin/fastapi_crud
+cd fastapi_crud
+fastapi dev main.py
+```
