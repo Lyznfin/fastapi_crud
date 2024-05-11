@@ -7,3 +7,8 @@ not much, but this repository covers, something like, beginner-full-project-stru
 - tests serve unit test that covers all of the endpoints
 - models will store the database table schema, sessions, and dependency (so that we dont have to redeclare session in each router)
 - main will just serve as a shortcut to run the server
+
+speaking of running the server, here is how
+`git clone https://github.com/Lyznfin/fastapi_crud`
+`cd fastapi_crud`
+`fastapi dev main.py`
