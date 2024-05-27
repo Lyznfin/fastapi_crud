@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 
 from app.models import DBComic, NotFoundError
-from app.authentications import Comic, ComicUpdate, ComicCreate
+from app.validations import Comic, ComicUpdate, ComicCreate
 
 def db_find_comic(comic_id: int, db: Session) -> DBComic:
     db_comic = db.query(DBComic).filter(DBComic.id == comic_id).first()

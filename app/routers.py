@@ -5,7 +5,7 @@ from fastapi.responses import RedirectResponse
 from sqlalchemy.orm import Session
 
 from app.models import NotFoundError, get_db, lifespan
-from app.authentications import ComicCreate, ComicUpdate, Comic
+from app.validations import ComicCreate, ComicUpdate, Comic
 from app.serializers import db_create_comic, db_read_all_comics, db_read_comic, db_update_comic, db_delete_comic
 
 app = FastAPI(lifespan=lifespan)
